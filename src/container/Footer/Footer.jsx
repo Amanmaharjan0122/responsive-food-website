@@ -1,12 +1,12 @@
 import React from 'react'
-import { FooterOverlay, Newsletter } from '../../components'
+import { Newsletter } from '../../components'
 import { FiFaceBook, FiInstagram, FiTwitter } from 'react-icons/fi'
 import { images } from '../../constants'
 import './Footer.css'
 
 const Footer = () => (
   <div className="app__footer section__padding">
-    <FooterOverlay />
+    {/* <FooterOverlay /> */}
     <Newsletter />
 
     <div className="app__footer-links">
@@ -34,6 +34,7 @@ const Footer = () => (
         <div className="app__footer-links_icons">
           {/* <FiFaceBook /> */}
           <FiInstagram />
+
           <FiInstagram />
           <FiTwitter />
         </div>

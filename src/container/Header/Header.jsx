@@ -11,6 +11,7 @@ const Header = () => {
         <h1 className="app__header-h1"> The Key To Find Dining</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>
           The Crust Pizza & Bread brings the best of Italy to Kathmandu where
+          {/*  */}
           wood-fired pizza, hand crafted pastas, classic cocktails and warm
           hospitality come together ...
         </p>
